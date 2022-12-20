@@ -1,5 +1,5 @@
 import { IProduct } from "../interfaces";
-import { ProductItemDetail, StyledButton } from "./styles";
+import { ProductItem, ProductItemDetail, StyledButton } from "./styles";
 
 export const Product: React.FC<IProduct> = ({
     title, 
@@ -9,7 +9,7 @@ export const Product: React.FC<IProduct> = ({
     active
 }) => {
     return (
-        <div className="product-item card">
+        <ProductItem>
             <img width={65} height={65} src={thumbnail} />
             <ProductItemDetail active={active || false} >
                 <span className="title">{title}</span>
@@ -19,6 +19,6 @@ export const Product: React.FC<IProduct> = ({
             <div>
             <StyledButton>tambah cart</StyledButton>
             </div>
-        </div>
+        </ProductItem>
     )  
 }

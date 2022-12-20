@@ -4,6 +4,7 @@ import "./App.css";
 import "./components/styles";
 import { Product } from "./components/product";
 import { IProduct, IProductResponse } from "./interfaces";
+import { ProductContainer } from "./components/styles";
 
 
 function App() {
@@ -29,11 +30,11 @@ function App() {
   return (
     <div className="App">
       {loading && <div>Loading...</div>}
-      <div className="product-container" >  
+      <ProductContainer>  
         {products.map(product => 
           <Product key={product.id} {...product}/>
         )}
-      </div>
+      </ProductContainer>
     </div>
   );
 }

@@ -30,8 +30,25 @@ export const ProductItemDetail = styled.div<IPropsStyled>`
     color: red; !important;
     :hover { 
         color: blue !important;
-    }
+    }`;
 
-`;
+    export const ProductContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    `;
 
-
+    export const ProductItem = styled.div`
+    display: flex;
+  flex-direction: column;
+  
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f67f;
+    padding: 1em; 
+  }
+    `;

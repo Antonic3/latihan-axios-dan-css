@@ -69,10 +69,10 @@ button:focus-visible {
   }
 }
 
-.card {
+/* .card {
   padding: 1em; 
   background-color: #f0f67f;
-}
+} */
 
 .read-the-docs {
   color: #888;
@@ -82,15 +82,15 @@ button:focus-visible {
   background-color: #f9f9f9;
 }
 
-.product-container{
+/* .product-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
   gap: 16px;
-  }
+  } */
 
-.product-item{
+/* .product-item{
   display: flex;
   flex-direction: column;
   
@@ -98,9 +98,9 @@ button:focus-visible {
   padding: 10px;
   gap: 10px;
   border: 1px solid #ccc;
-  }
+  } */
 
-  .product-item_detail {
+  /* .product-item_detail {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,4 +114,4 @@ button:focus-visible {
 
   .product-item_detail:hover {
     color: rgb(80, 140, 232);
-  }
+  } */
